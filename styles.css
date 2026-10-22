@@ -6,3 +6,13 @@ p{line-height:1.75}.site-header{position:absolute;top:0;left:0;right:0;z-index:5
 
 /* Keep the original photo visible until Vimeo actually begins playing. */
 .video-shell.video-playing iframe{opacity:1}
+
+/* Embedded original Vimeo film with manual controls when background autoplay is blocked. */
+.film-section{background:#080607;padding:100px clamp(20px,7vw,120px) 110px;border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
+.film-heading{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(230px,.5fr);gap:20px 5vw;align-items:end;margin-bottom:40px}
+.film-heading>.eyebrow{grid-column:1/-1}.film-heading h2{font-size:clamp(64px,8vw,144px)}
+.film-heading>p{color:var(--soft);max-width:365px;font-size:14px;line-height:1.65}
+.film-player{aspect-ratio:16/9;width:100%;background:#020203;overflow:hidden}
+.film-player iframe{width:100%;height:100%;display:block;border:0}
+.film-external{display:inline-block;margin-top:22px;font-size:10px;letter-spacing:.18em;text-underline-offset:6px}
+@media(max-width:780px){.film-section{padding:74px 22px}.film-heading{grid-template-columns:1fr}.film-heading>.eyebrow{grid-column:1}.film-heading h2{font-size:clamp(55px,12vw,82px)}.film-player{aspect-ratio:16/10}}
