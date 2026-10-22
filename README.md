@@ -4,9 +4,9 @@ A static GitHub Pages website built using **the user-uploaded original photograp
 
 ## Contents
 - `index.html`, `styles.css`, `script.js` — the working site, relative asset paths, no build dependencies.
-- `assets/photographs/` — **all 12 original photos**.
-- `assets/brand/` — both original PNG logos (WILANY / Now & Then).
-- `assets/press/` — September 2026 EPK PDF.
+- `repository root / (flat deployment: `stage-01.jpg`, etc.)` — **all 12 original photos**.
+- `repository root / (flat deployment: `wilany-original.png`, `now-and-then-original.png`)` — both original PNG logos (WILANY / Now & Then).
+- `repository root / (flat deployment: `WILANY_GERMANO_NOW_THEN_EPK_2026.pdf`)` — September 2026 EPK PDF.
 - `ORIGINAL_ASSET_MANIFEST.json` — original filenames and SHA256 verification.
 - `MR_MASTER_PROMPT.md` — reproducible research/build specifications.
 
@@ -26,3 +26,12 @@ Every binary asset was copied without modification. `ORIGINAL_ASSET_MANIFEST.jso
 
 ## Local preview
 `python3 -m http.server 8765`, then open `http://localhost:8765/`.
+
+## October 22, 2026 — deployment fix and current GitHub layout
+The original asset files were uploaded **directly to the repository root**, not under `assets/`. The published `index.html` now points to these actual root filenames. Do **not** move or rename the original asset files without updating HTML references.
+
+All 12 JPEG images, two logos, and the EPK were checked against their original Git blob SHA-1 hashes: byte-for-byte identical. Main banner: original full-screen photo fallback behind muted, looping Vimeo background (video ID 1238307931). Additionally, the site now has a visible in-page Vimeo player in the FILM section, with manual controls for browsers that block background autoplay.
+
+If Vimeo still does not embed, check Vimeo video settings → Share → Embed → 'Where can this be embedded': Anywhere, or include `germanodesign.github.io`. For unlisted videos, copy the exact iframe from Vimeo including the privacy `h=` hash, which cannot be guessed.
+
+Production testing requires a real browser on the deployed GitHub Pages domain; repository verification does not prove remote Vimeo or Pages availability.
