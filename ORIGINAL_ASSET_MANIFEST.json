@@ -1,0 +1,90 @@
+{
+  "policy": "Original files copied byte-for-byte, no AI image generation and no photographic editing",
+  "vimeo_id": "1238307931",
+  "assets": [
+    {
+      "original_filename": "PHOTO 1.jpg",
+      "website_path": "assets/photographs/stage-01.jpg",
+      "sha256": "dc2665aaf70a914ddfc45a5a9e0d312663a0137d8d9682d1dfa2b14a10b52b5d",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "PHOTO 2.jpg",
+      "website_path": "assets/photographs/stage-02.jpg",
+      "sha256": "c95950d396bf450e6817abba5f34557882baabe75f04a9d2c817979fc1057468",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "PHOTO 3.jpg",
+      "website_path": "assets/photographs/stage-03.jpg",
+      "sha256": "4a92d162d7986777cc7f752db828723a674bc6a145fdb8663d7765fbf2bd0783",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "PHOTO 4.jpg",
+      "website_path": "assets/photographs/stage-04.jpg",
+      "sha256": "073e3f1e9551f3abe5ef436f5e36173c18538b1c441f09b1226d3abce3b4f475",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "PHOTO 5.jpg",
+      "website_path": "assets/photographs/stage-05.jpg",
+      "sha256": "a9d255d295c06de75f1aa3793c03106e90fe110ed64a82df88bf7cec94ba8182",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "PHOTO 6.jpg",
+      "website_path": "assets/photographs/stage-06.jpg",
+      "sha256": "557600d70a3ea79f71fb7b45e4d4651677f1c97721d817a2adc185438d95ca64",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "PHOTO 7.jpg",
+      "website_path": "assets/photographs/stage-07.jpg",
+      "sha256": "4fb6475408b0b747ffe8f50cfbc8e12807297c2e727ce2597a22b57f99a24c92",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "photo 9.jpg",
+      "website_path": "assets/photographs/movement-09.jpg",
+      "sha256": "7f0ed8665bb83be0fc9d6bd18b2c4a13abd513c24e4ffad77470b369be5656bb",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "photo 10.jpg",
+      "website_path": "assets/photographs/movement-10.jpg",
+      "sha256": "5266d99587ada9472ac1bff6f16216315499cbed8200d94f3714f54fe515fdfb",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "photo 11.jpg",
+      "website_path": "assets/photographs/movement-11.jpg",
+      "sha256": "816c5e91f6fba1a5e8c35c0871393334d4139e98b96645c10c4cff48ffc6e61b",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "cover.jpg",
+      "website_path": "assets/photographs/cover-original.jpg",
+      "sha256": "f410d38d1dab1af6177d95bc37fd012fbcf71325f38051817d403f9d8f428f2d",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "photo wilany.jpg",
+      "website_path": "assets/photographs/photo-wilany-original.jpg",
+      "sha256": "2ddd4ee719811e3f5521c2a04d1976b137761039491194c2d7c60f54009fe67f",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "WILANY - LOGO(2).png",
+      "website_path": "assets/brand/wilany-original.png",
+      "sha256": "a86bb4d4a724a2bec921f1af5415ff886bf558b924862517b6b3399169a9b3a0",
+      "identical_to_original": true
+    },
+    {
+      "original_filename": "Image Aug 28, 2026 at 02_03_47 PM(1).png",
+      "website_path": "assets/brand/now-and-then-original.png",
+      "sha256": "48c9a345fc05b42079e4cf9cf64198054b69f08a595420c2330bb9f8899ef569",
+      "identical_to_original": true
+    }
+  ]
+}
